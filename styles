@@ -1,0 +1,54 @@
+/* styles.css */
+
+/* Set light blue background for the entire page */
+body {
+    background-color: #ADD8E6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent background */
+    backdrop-filter: blur(5px); /* Optional: adds a blur effect */
+    padding: 15px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+/* Section styles */
+section {
+    padding: 100px 20px; /* Adds some padding to avoid overlap with fixed navbar */
+    text-align: center;
+    margin-top: 60px; /* Extra spacing to clear the navbar */
+}
+
+h2 {
+    font-size: 24px;
+    color: black;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+}
